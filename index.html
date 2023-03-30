@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Above All Pest Control</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&family=Tilt+Neon&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<header class="sticky">
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="javascript:void(0)">
+                  <i class="fa-solid fa-hand-holding-heart"></i>&nbsp;&nbsp;VF
+                </a>
+              </div>
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a id="sign-out" class="button is-primary" style="display:none">
+                      <strong>Sign Out</strong>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+		<h1>Above All Pest Control</h1>
+		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="menu-toggle-icon"></span>
+		</button>
+		<nav id="primary-menu" class="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="login">
+			<h2>Login</h2>
+			<form>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+				<input type="submit" value="Login">
+			</form>
+		</section>
+		<section id="register">
+			<h2>Create an Account</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+				<input type="submit" value="Register">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; Above All Pest Control 2023</p>
+	</footer>
 
+	<script src="./assets/js/script.js"></script>
+</body>
+</html>
